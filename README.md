@@ -44,6 +44,7 @@ The machine learning models impemented to predict the breast cancer presence bas
 ## Results
 Accuracy, precision, recall, F1 score, ROC curve and confusion matrix were used to evaluate the models performance. The best performance was achived with the Ada Boost Classifier. This project is one step towards discovering a non-invasive and inexpensive way to predict breast cancer. 
 
+![results](https://github.com/user-attachments/assets/482e0cad-0b64-4fef-a450-68dda7871eca)
 
 
 
