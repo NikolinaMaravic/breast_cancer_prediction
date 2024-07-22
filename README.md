@@ -2,12 +2,12 @@
 Development and evaluation of a ML model for predicting breast cancer based on anthropometric measures and parameters obtained from routine blood analysis
 
 ## Table of Contents
-[Project Overview](#project-overview)
-[Data Source](#data-source)
-[Data Preparation](#data-preparation)
-[Exploratory Data Analysis](#exploratory-data-analysis)
-[Machine Learning](#machine-learning)
-[Results](#results)
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Data Preparation](#data-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Machine Learning](#machine-learning)
+- [Results](#results)
 
 ## Project Overview
 The main goal of this project was to analyze a dataset consisting of anthropometric measures and parametered collected from routine blood analysis and to develop a ML model for breast cancer prediction based on the available data. The project consisted of two phases. During the first phase, the dataset analysis was performed. The goal was to provide interesting insights and gain a deeper understanding of the available dataset. By analyzing various aspects of the data, patterns and trends were identified, and data-driven recommendations were made. The main idea of the second phase of the project was to develop and assess a ML model for breast cancer prediction. This project represents one step towards finding a cheap and effective biomarker for non-invasive breast cancer detection.
