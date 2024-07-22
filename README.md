@@ -10,7 +10,7 @@ Development and evaluation of a ML model for predicting breast cancer based on a
 - [Results](#results)
 
 ## Project Overview
-The main goal of this project was to analyze a dataset consisting of anthropometric measures and parametered collected from routine blood analysis and to develop a ML model for breast cancer prediction based on the available data. The project consisted of two phases. During the first phase, the dataset analysis was performed. The goal was to provide interesting insights and gain a deeper understanding of the available dataset. By analyzing various aspects of the data, patterns and trends were identified, and data-driven recommendations were made. The main idea of the second phase of the project was to develop and assess a ML model for breast cancer prediction. This project represents one step towards finding a cheap and effective biomarker for non-invasive breast cancer detection.
+The main goal of this project was to analyze a dataset consisting of anthropometric measures and parametered collected from routine blood analysis and to develop a ML model for breast cancer prediction based on the available data. The project consisted of two phases. During the first phase, the dataset analysis was performed. The goal was to provide interesting insights and gain a deeper understanding of the available dataset. By analyzing various aspects of the data, patterns and trends were identified, and data-driven recommendations were made. The main idea of the second phase of the project was to develop and assess a ML model for breast cancer prediction.
  
 ## Data Source
 The dataset used for this project is the publicly available „*dataR2.csv*“ file ([download here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5755302/)). Dataset consists of anthropometric measures and parameters collected from blood analysis of 116 women recruited from the Gynaecology Department of the University Hospital Centre of Coimbra. For each subject, 9 clinical features were observed or measured, including Age, BMI (Body Mass Index), Glucose, Insulin, HOMA, Leptin, Adiponectin, Resistin, and MCP-1. Data are labeled with classes 1 (healthy subjects) or 2 (subjects diagnosed with breast cancer).
@@ -42,7 +42,7 @@ Finally, the selected parameters for classifier inputs are Age, Glucose, HOMA, L
 The machine learning models impemented to predict the breast cancer presence based on the 5 selected features are: Extra Trees, Random Forest, Ada Boost, Gradient Boosting, Gaussian Naive Bayes. Models hyperparameters were tuned via Randomized Search Cross Validation. The trained models were tested on unseen data, and their performance was evaluated.
 
 ## Results
-Accuracy, precision, recall, F1 score, ROC curve and confusion matrix were used to evaluate the models performance. The best performance was achived with the Ada Boost Classifier. This project is one step towards discovering a non-invasive and inexpensive way to predict breast cancer. 
+Accuracy, precision, recall, F1 score, ROC curve and confusion matrix were used to evaluate the models performance. The best performance was achived with the Ada Boost Classifier.
 
 ![results](https://github.com/user-attachments/assets/482e0cad-0b64-4fef-a450-68dda7871eca)
 
