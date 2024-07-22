@@ -39,10 +39,10 @@ A few interesting observations obtained through EDA:
 Finally, the selected parameters for classifier inputs are Age, Glucose, HOMA, Leptin and Resistin.
 
 ## Machine Learning
-The machine learning models impemented to predict the breast cancer presence based on the 5 selected features are: Extra Trees, Random Forest, Ada Boost, Gradient Boosting, and Gaussian Naive Bayes Classifier. Models hyperparameters were tuned via Randomized Search Cross Validation. The trained models were tested on unseen data, and their performance was evaluated.
+The machine learning models impemented to predict the breast cancer presence based on the 5 selected features are: Extra Trees, Random Forest, AdaBoost, Gradient Boosting, and Gaussian Naive Bayes Classifier. Models hyperparameters were tuned via Randomized Search Cross Validation. The trained models were tested on unseen data, and their performance was evaluated.
 
 ## Results
-Accuracy, precision, recall, F1 score, ROC curve and confusion matrix were used to evaluate the models performance. The best performance was achived with the Ada Boost Classifier.
+Accuracy, precision, recall, F1 score, ROC curve and confusion matrix were used to evaluate the models performance. The best performance was achived with the AdaBoost Classifier.
 
 ![results](https://github.com/user-attachments/assets/482e0cad-0b64-4fef-a450-68dda7871eca)
 
