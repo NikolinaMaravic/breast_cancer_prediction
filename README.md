@@ -26,7 +26,7 @@ EDA was performed to investigate the dataset and summarize its main characterist
 -	univariate data analysis – for each feature in the dataset, visualization was performed through KDE plot and box plot for both healthy and breast cancer patients
 -	bivariate data analysis – pairwise feature relationships and correlation heatmap were visualized in order to reveal highly correlated features
 -	multivariate data analysis – for mapping and understanding interaction of different features with target variable
--	feature selection (dimensionality reduction)– the 5 most informative features were selected based on the entropy estimation from the k-nearest neighbors distances
+-	feature selection (dimensionality reduction) – the 5 most informative features were selected based on the entropy estimation from the k-nearest neighbors distances
 -	normalization – (0, 1) normalization was performed in order to standardize the range of features.
   
 A few interesting observations obtained through EDA:
